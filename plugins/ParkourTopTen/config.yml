@@ -1,0 +1,35 @@
+# ############################################################### #
+#               ParkourTopTen configuration file                  #
+#                                                                 #
+# Create a top ten display of player heads for Parkour courses.   #
+#                                                                 #
+# Author: steve4744                                               #
+# ############################################################### #
+
+# Set this to true if you want the head placed above the sign rather than on top of the block the sign is attached to.
+placeHeadAboveSign: false
+# If true, all signs in a display must use the same sign type
+enforceSameSignType: false
+# On startup, check for new release on SpigotMC.org
+checkForUpdate: true
+# Sign configuration.
+# Supports RGB/Hex colours, e.g. line0: '<#ff11aa>#'
+signs:
+  line0: '&b#'
+  line1: '&a'
+  line2: '&fTime: &b'
+  line3: '&a'
+# If true, log verbose messages to console
+debug: false
+panels:
+- tutorial:parkour:125:10:-241:0:0:EAST
+- treeoflife:parkour:-261:8:109:0:0:WEST
+- skywars:parkour:-251:3:121:0:0:NORTH
+- momentumjump:parkour:916:64:1379:0:0:EAST
+- flyingvillage:parkour:-275:2:152:0:0:EAST
+- medium:parkour:203:11:7:0:0:NORTH
+- easy:parkour:195:11:-5:0:0:WEST
+- expert:parkour:183:11:3:0:0:SOUTH
+- hard:parkour:191:11:15:0:0:EAST
+- netherdream:parkour:9725:9:9879:0:0:SOUTH
+- shipwool:parkour:9993:12:9939:0:0:EAST
