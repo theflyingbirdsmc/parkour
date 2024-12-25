@@ -43,5 +43,5 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-VotingPlugin:1.5'
     
     // K8s Plugins
-    implementation 'Plugin:UnifiedMetrics:0.3.8'
+    // implementation 'Plugin:UnifiedMetrics:0.3.8'
 }
