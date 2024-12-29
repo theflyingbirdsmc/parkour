@@ -1,5 +1,5 @@
 FROM openjdk:21-slim
-LABEL author="Lucas Christensen & Simon Fugl"
+LABEL author="Simon Fugl"
 
 # Copy server files to a tfb folder
 COPY . /tfb/
