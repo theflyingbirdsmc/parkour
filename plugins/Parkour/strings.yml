@@ -64,6 +64,7 @@ Parkour:
       Winner: Congratulations! You won the challenge on &b%VALUE%!
       WinnerWager: You have been rewarded &b%VALUE% &ffor winning the wager!
       Loser: '&b%PLAYER% &fhas completed &b%COURSE% &fbefore you!'
+      LoserWager: You have had &b%VALUE% &fdeducted from your balance!
 Event: 
    Join: This server uses &bParkour &3%VALUE%
    Checkpoint: Checkpoint set to &b%CURRENT% &8/ &7%TOTAL%
@@ -127,6 +128,7 @@ Help:
    CommandUsage: '&3/pa &b%COMMAND%&e%ARGUMENTS% &0: &f%TITLE%'
    SignUsage: '&b%COMMAND% &e%SHORTCUT% &0: &f%DESCRIPTION%'
    DisplayValue: '%TITLE%: &b%VALUE%'
+   CommandExamples: '&7Examples:'
 ParkourTool: 
    LastCheckpoint: 
       Info: '&6Right click to go back to last checkpoint'
@@ -202,6 +204,7 @@ PlaceholderAPI:
    CourseInactive: Inactive
    CheckpointHologram: Checkpoint &b%VALUE%
    NoPrizeCooldown: Prize Available
+   PlayerNotFound: Player not found
 GUI: 
    JoinCourses: 
       Heading: Parkour Courses
