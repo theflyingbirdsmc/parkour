@@ -40,7 +40,8 @@ build-permission-nodes:
     deny-message: '&eSorry, but you are not permitted to do that here.'
 event-handling:
     block-entity-spawns-with-untraceable-cause: false
-    interaction-whitelist: []
+    interaction-whitelist:
+    - minecraft:stone_pressure_plate
     emit-block-use-at-feet: []
     ignore-hopper-item-move-events: false
     break-hoppers-on-denied-move: true
@@ -95,6 +96,7 @@ mobs:
     block-zombie-door-destruction: false
     block-vehicle-entry: false
     block-creature-spawn: []
+    block-windcharge-explosions: false
 player-damage:
     disable-fall-damage: false
     disable-lava-damage: false
@@ -141,6 +143,9 @@ dynamics:
     disable-soil-dehydration: false
     disable-coral-block-fade: false
     snow-fall-blocks: []
+    disable-sculk-growth: false
+    disable-soil-moisture-change: false
+    disable-copper-block-fade: false
 blacklist:
     use-as-whitelist: false
     logging:
@@ -159,3 +164,6 @@ blacklist:
 custom-metrics-charts: true
 extra-timings:
     session-handlers: true
+sniffer-egg:
+    disable-creature-trampling: false
+    disable-player-trampling: false
