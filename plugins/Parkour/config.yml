@@ -75,7 +75,7 @@ CourseDefault:
       DieInLiquid: false
       DieInVoid: true
       HasFallDamage: true
-      ManualCheckpoints: true
+      ManualCheckpoints: false
       MaxFallTicks: 80
       MaxDeaths: 0
       MaxTime: 0
