@@ -160,7 +160,7 @@ panels:
           - left= parkour join expert
           - right= parkour stats expert
           - middle= parkour leaderboard expert
-        '38':
+        '29':
           material: BOOK
           stack: 1
           name: '&r&b%parkour_course_displayname_pridesnake%&r | Online: &b%parkour_course_players_pridesnake%'
@@ -174,7 +174,7 @@ panels:
           - left= parkour join pridesnake
           - right= parkour stats pridesnake
           - middle= parkour leaderboard pridesnake
-        '47':
+        '38':
           material: BOOK
           stack: 1
           name: '&r&b%parkour_course_displayname_transsnake%&r | Online: &b%parkour_course_players_transsnake%'
