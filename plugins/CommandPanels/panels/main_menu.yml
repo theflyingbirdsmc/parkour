@@ -46,10 +46,13 @@ panels:
         stack: 1
         name: '&fPlayer Stats'
         lore:
+        - '&eCourse playing Time: &b%parkour_player_total_playing_time%'
         - '&eGame Level: &b%parkour_player_level%'
         - '&eBalance: &b%vault_eco_balance_commas%'
-        - '&eCompleted: &b%parkour_player_courses_completed%'
+        - '&eCompleted: &b%parkour_player_courses_completed%&f (&b%parkour_player_courses_uncompleted% left&f)'
+        - '&eLast Joined: &b%parkour_player_last_joined%'
         - '&eLast Finished: &b%parkour_player_last_completed%'
+        - '&eTotal First Places: &b%parkour_player_total_firstplaces%'
       '8':
         material: BOOK
         stack: 1
@@ -61,6 +64,7 @@ panels:
         - '&b4: &7Phoenix can get custom created courses'
         - '&b5: &7Fall damage is enabled with no regen'
         - '&b6: &7Lvl equals difficulty'
+        - '&b7: &7Course times are written as hh:mm:ss:ms'
       '26':
         material: WHITE_DYE
         stack: 1
