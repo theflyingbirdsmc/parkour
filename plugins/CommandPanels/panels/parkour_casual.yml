@@ -27,7 +27,7 @@ panels:
           - '&eBest time: &f%parkour_course_record_momentumjump_player%&8: &b%parkour_course_record_momentumjump_time%'
           - '&eViews: &b%parkour_course_views_momentumjump%&f | &eCompletions: &b%parkour_course_completions_momentumjump% &f(&b%math_0:1_100/{parkour_course_views_momentumjump}*{parkour_course_completions_momentumjump}%%&f)'
           - ''
-          - '&eReward: &b$%parkour_course_ecoreward_momentumjump%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_momentumjump%'
+          - '&eReward: &b$%parkour_course_ecoreward_momentumjump%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_momentumjump%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_momentumjump%'
           commands:

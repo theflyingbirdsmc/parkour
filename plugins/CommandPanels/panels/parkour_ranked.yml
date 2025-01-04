@@ -29,7 +29,7 @@ panels:
           - '&eViews: &b%parkour_course_views_easy%&f | &eCompletions: &b%parkour_course_completions_easy% &f(&b%math_0:1_100/{parkour_course_views_easy}*{parkour_course_completions_easy}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_easy%&f + &emin-lvl: &b%parkour_course_minparkourlevel_easy%'
-          - '&eReward: &b$%parkour_course_ecoreward_easy%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_easy%'
+          - '&eReward: &b$%parkour_course_ecoreward_easy%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_easy%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_easy%'
           commands:
@@ -61,7 +61,7 @@ panels:
           - '&eViews: &b%parkour_course_views_treeoflife%&f | &eCompletions: &b%parkour_course_completions_treeoflife% &f(&b%math_0:1_100/{parkour_course_views_treeoflife}*{parkour_course_completions_treeoflife}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_treeoflife%&f + &emin-lvl: &b%parkour_course_minparkourlevel_treeoflife%'
-          - '&eReward: &b$%parkour_course_ecoreward_treeoflife%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_treeoflife%'
+          - '&eReward: &b$%parkour_course_ecoreward_treeoflife%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_treeoflife%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_treeoflife%'
           commands:
@@ -77,7 +77,7 @@ panels:
           - '&eViews: &b%parkour_course_views_medium%&f | &eCompletions: &b%parkour_course_completions_medium% &f(&b%math_0:1_100/{parkour_course_views_medium}*{parkour_course_completions_medium}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_medium%&f + &emin-lvl: &b%parkour_course_minparkourlevel_medium%'
-          - '&eReward: &b$%parkour_course_ecoreward_medium%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_medium%'
+          - '&eReward: &b$%parkour_course_ecoreward_medium%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_medium%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_medium%'
           commands:
@@ -93,7 +93,7 @@ panels:
           - '&eViews: &b%parkour_course_views_rainbowclimb%&f | &eCompletions: &b%parkour_course_completions_rainbowclimb% &f(&b%math_0:1_100/{parkour_course_views_rainbowclimb}*{parkour_course_completions_rainbowclimb}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowclimb%&f + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowclimb%'
-          - '&eReward: &b$%parkour_course_ecoreward_rainbowclimb%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowclimb%'
+          - '&eReward: &b$%parkour_course_ecoreward_rainbowclimb%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_rainbowclimb%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_rainbowclimb%'
           commands:
@@ -109,7 +109,7 @@ panels:
           - '&eViews: &b%parkour_course_views_skywars%&f | &eCompletions: &b%parkour_course_completions_skywars% &f(&b%math_0:1_100/{parkour_course_views_skywars}*{parkour_course_completions_skywars}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_skywars%&f + &emin-lvl: &b%parkour_course_minparkourlevel_skywars%'
-          - '&eReward: &b$%parkour_course_ecoreward_skywars%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_skywars%'
+          - '&eReward: &b$%parkour_course_ecoreward_skywars%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_skywars%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_skywars%'
           commands:
@@ -125,7 +125,7 @@ panels:
           - '&eViews: &b%parkour_course_views_hard%&f | &eCompletions: &b%parkour_course_completions_hard% &f(&b%math_0:1_100/{parkour_course_views_hard}*{parkour_course_completions_hard}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_hard%&f + &emin-lvl: &b%parkour_course_minparkourlevel_hard%'
-          - '&eReward: &b$%parkour_course_ecoreward_hard%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_hard%'
+          - '&eReward: &b$%parkour_course_ecoreward_hard%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_hard%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_hard%'
           commands:
@@ -141,7 +141,7 @@ panels:
           - '&eViews: &b%parkour_course_views_rainbowfall%&f | &eCompletions: &b%parkour_course_completions_rainbowfall% &f(&b%math_0:1_100/{parkour_course_views_rainbowfall}*{parkour_course_completions_rainbowfall}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowfall%&f + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowfall%'
-          - '&eReward: &b$%parkour_course_ecoreward_rainbowfall%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowfall%'
+          - '&eReward: &b$%parkour_course_ecoreward_rainbowfall%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_rainbowfall%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_rainbowfall%'
           commands:
@@ -157,7 +157,7 @@ panels:
           - '&eViews: &b%parkour_course_views_flyingvillage%&f | &eCompletions: &b%parkour_course_completions_flyingvillage% &f(&b%math_0:1_100/{parkour_course_views_flyingvillage}*{parkour_course_completions_flyingvillage}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_flyingvillage%&f + &emin-lvl: &b%parkour_course_minparkourlevel_flyingvillage%'
-          - '&eReward: &b$%parkour_course_ecoreward_flyingvillage%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_flyingvillage%'
+          - '&eReward: &b$%parkour_course_ecoreward_flyingvillage%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_flyingvillage%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_flyingvillage%'
           commands:
@@ -173,7 +173,7 @@ panels:
           - '&eViews: &b%parkour_course_views_expert%&f | &eCompletions: &b%parkour_course_completions_expert% &f(&b%math_0:1_100/{parkour_course_views_expert}*{parkour_course_completions_expert}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_expert%&f + &emin-lvl: &b%parkour_course_minparkourlevel_expert%'
-          - '&eReward: &b$%parkour_course_ecoreward_expert%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_expert%'
+          - '&eReward: &b$%parkour_course_ecoreward_expert%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_expert%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_expert%'
           commands:
@@ -189,7 +189,7 @@ panels:
           - '&eViews: &b%parkour_course_views_pridesnake%&f | &eCompletions: &b%parkour_course_completions_pridesnake% &f(&b%math_0:1_100/{parkour_course_views_pridesnake}*{parkour_course_completions_pridesnake}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_pridesnake%&f + &emin-lvl: &b%parkour_course_minparkourlevel_pridesnake%'
-          - '&eReward: &b$%parkour_course_ecoreward_pridesnake%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_pridesnake%'
+          - '&eReward: &b$%parkour_course_ecoreward_pridesnake%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_pridesnake%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_pridesnake%'
           commands:
@@ -205,7 +205,7 @@ panels:
           - '&eViews: &b%parkour_course_views_transsnake%&f | &eCompletions: &b%parkour_course_completions_transsnake% &f(&b%math_0:1_100/{parkour_course_views_transsnake}*{parkour_course_completions_transsnake}%%&f)'
           - ''
           - '&eJoin-fee: &b$%parkour_course_joinfee_transsnake%&f + &emin-lvl: &b%parkour_course_minparkourlevel_transsnake%'
-          - '&eReward: &b$%parkour_course_ecoreward_transsnake%&f + &elvl up: &b%parkour_course_rewardparkourleveladd_transsnake%'
+          - '&eReward: &b$%parkour_course_ecoreward_transsnake%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_transsnake%'
           - ''
           - '&eCreated by: &f%parkour_course_creator_transsnake%'
           commands:
