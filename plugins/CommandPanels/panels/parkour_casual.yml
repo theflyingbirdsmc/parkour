@@ -22,11 +22,15 @@ panels:
         '0':
           material: BOOK
           stack: 1
-          name: '&r&b%parkour_course_displayname_momentumjump%&r (Views: &b%parkour_course_views_momentumjump%&r)'
+          name: '&f&b%parkour_course_displayname_momentumjump%&f | Online: &b%parkour_course_players_momentumjump%'
           lore:
           - '&eBest time: &f%parkour_course_record_momentumjump_player%&8: &b%parkour_course_record_momentumjump_time%'
+          - '&eViews: &b%parkour_course_views_momentumjump%&f | &eCompletions: &b%parkour_course_completions_momentumjump% &f(&b%math_0:1_100/{parkour_course_views_momentumjump}*{parkour_course_completions_momentumjump}%%&f)'
+          - ''
+          - '&eReward: &b$%parkour_course_ecoreward_momentumjump%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_momentumjump%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_momentumjump%'
-          - '&eReward: &b$%parkour_course_ecoreward_momentumjump% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_momentumjump%'
-          - '&eOnline: &b%parkour_course_players_momentumjump%'
           commands:
           - left= parkour join momentumjump
+          - right= parkour stats momentumjump
+          - middle= parkour leaderboard momentumjump

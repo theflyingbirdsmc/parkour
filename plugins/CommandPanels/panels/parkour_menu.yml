@@ -28,18 +28,18 @@ panels:
       '13':
         material: EGG
         stack: 1
-        name: '&r&f%parkour_course_displayname_parkourtutorial%&r (&eViews: &b%parkour_course_views_parkourtutorial%&r)'
+        name: '&f&b%parkour_course_displayname_parkourtutorial%&f | Online: &b%parkour_course_players_parkourtutorial%'
         lore:
-        - '&7Learn how to play the parkour mode'
-        - ''
         - '&eBest time: &f%parkour_course_record_parkourtutorial_player%&8: &b%parkour_course_record_parkourtutorial_time%'
+        - '&eViews: &b%parkour_course_views_parkourtutorial%&f | &eCompletions: &b%parkour_course_completions_parkourtutorial% &f(&b%math_0:1_100/{parkour_course_views_parkourtutorial}*{parkour_course_completions_parkourtutorial}%%&f)'
+        - ''
+        - '&eReward: &b$%parkour_course_ecoreward_parkourtutorial%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_parkourtutorial%'
+        - ''
         - '&eCreated by: &f%parkour_course_creator_parkourtutorial%'
-        - '&eReward: &b$%parkour_course_ecoreward_parkourtutorial% &f+ &elvl up: &b%parkour_course_rewardparkourleveladd_parkourtutorial%'
-        - '&eOnline: &b%parkour_course_players_parkourtutorial%'
         commands:
-        - 'left= parkour join parkourtutorial'
-        - 'right= parkour stats parkourtutorial'
-        - 'middle= parkour leaderboard parkourtutorial'
+        - left= parkour join parkourtutorial
+        - right= parkour stats parkourtutorial
+        - middle= parkour leaderboard parkourtutorial
       '21':
         material: PLAYER_HEAD
         stack: 1
