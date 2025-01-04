@@ -1,0 +1,10 @@
+name: TFB CI/CD
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-workflow:
+    uses: theflyingbirdsmc/TFB-Network/.github/workflows/tfb.yml@main
