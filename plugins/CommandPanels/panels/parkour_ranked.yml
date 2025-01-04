@@ -26,9 +26,11 @@ panels:
           name: '&r&b%parkour_course_displayname_easy%&r | Online: &b%parkour_course_players_easy%'
           lore:
           - '&eBest time: &f%parkour_course_record_easy_player%&8: &b%parkour_course_record_easy_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_easy%&r | &ejoin-fee: &b$%parkour_course_joinfee_easy%'
-          - '&eReward: &b$%parkour_course_ecoreward_easy% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_easy%'
           - '&eCompletions: &b%parkour_course_completions_easy%&r | &eViews: &b%parkour_course_views_easy% &r(&b%math_0:1_100/{parkour_course_views_easy}*{parkour_course_completions_easy}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_easy%&r + &emin-lvl: &b%parkour_course_minparkourlevel_easy%'
+          - '&eReward: &b$%parkour_course_ecoreward_easy%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_easy%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_easy%'
           commands:
           - left= parkour join easy
@@ -40,9 +42,11 @@ panels:
           name: '&r&b%parkour_course_displayname_rainbowrun%&r | Online: &b%parkour_course_players_rainbowrun%'
           lore:
           - '&eBest time: &f%parkour_course_record_rainbowrun_player%&8: &b%parkour_course_record_rainbowrun_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_rainbowrun%&r | &ejoin-fee: &b$%parkour_course_joinfee_rainbowrun%'
-          - '&eReward: &b$%parkour_course_ecoreward_rainbowrun% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowrun%'
           - '&eCompletions: &b%parkour_course_completions_rainbowrun%&r | &eViews: &b%parkour_course_views_rainbowrun% &r(&b%math_0:1_100/{parkour_course_views_rainbowrun}*{parkour_course_completions_rainbowrun}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowrun%&r + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowrun%'
+          - '&eReward: &b$%parkour_course_ecoreward_rainbowrun%&r + &elvl-up: &b%parkour_course_rewardparkourleveladd_rainbowrun%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_rainbowrun%'
           commands:
           - left= parkour join rainbowrun
@@ -54,9 +58,11 @@ panels:
           name: '&r&b%parkour_course_displayname_treeoflife%&r | Online: &b%parkour_course_players_treeoflife%'
           lore:
           - '&eBest time: &f%parkour_course_record_treeoflife_player%&8: &b%parkour_course_record_treeoflife_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_treeoflife%&r | &ejoin-fee: &b$%parkour_course_joinfee_treeoflife%'
-          - '&eReward: &b$%parkour_course_ecoreward_treeoflife% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_treeoflife%'
           - '&eCompletions: &b%parkour_course_completions_treeoflife%&r | &eViews: &b%parkour_course_views_treeoflife% &r(&b%math_0:1_100/{parkour_course_views_treeoflife}*{parkour_course_completions_treeoflife}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_treeoflife%&r + &emin-lvl: &b%parkour_course_minparkourlevel_treeoflife%'
+          - '&eReward: &b$%parkour_course_ecoreward_treeoflife%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_treeoflife%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_treeoflife%'
           commands:
           - left= parkour join treeoflife
@@ -68,9 +74,11 @@ panels:
           name: '&r&b%parkour_course_displayname_medium%&r | Online: &b%parkour_course_players_medium%'
           lore:
           - '&eBest time: &f%parkour_course_record_medium_player%&8: &b%parkour_course_record_medium_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_medium%&r | &ejoin-fee: &b$%parkour_course_joinfee_medium%'
-          - '&eReward: &b$%parkour_course_ecoreward_medium% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_medium%'
           - '&eCompletions: &b%parkour_course_completions_medium%&r | &eViews: &b%parkour_course_views_medium% &r(&b%math_0:1_100/{parkour_course_views_medium}*{parkour_course_completions_medium}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_medium%&r + &emin-lvl: &b%parkour_course_minparkourlevel_medium%'
+          - '&eReward: &b$%parkour_course_ecoreward_medium%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_medium%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_medium%'
           commands:
           - left= parkour join medium
@@ -82,9 +90,11 @@ panels:
           name: '&r&b%parkour_course_displayname_rainbowclimb%&r | Online: &b%parkour_course_players_rainbowclimb%'
           lore:
           - '&eBest time: &f%parkour_course_record_rainbowclimb_player%&8: &b%parkour_course_record_rainbowclimb_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_rainbowclimb%&r | &ejoin-fee: &b$%parkour_course_joinfee_rainbowclimb%'
-          - '&eReward: &b$%parkour_course_ecoreward_rainbowclimb% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowclimb%'
           - '&eCompletions: &b%parkour_course_completions_rainbowclimb%&r | &eViews: &b%parkour_course_views_rainbowclimb% &r(&b%math_0:1_100/{parkour_course_views_rainbowclimb}*{parkour_course_completions_rainbowclimb}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowclimb%&r + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowclimb%'
+          - '&eReward: &b$%parkour_course_ecoreward_rainbowclimb%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowclimb%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_rainbowclimb%'
           commands:
           - left= parkour join rainbowclimb
@@ -96,9 +106,11 @@ panels:
           name: '&r&b%parkour_course_displayname_skywars%&r | Online: &b%parkour_course_players_skywars%'
           lore:
           - '&eBest time: &f%parkour_course_record_skywars_player%&8: &b%parkour_course_record_skywars_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_skywars%&r | &ejoin-fee: &b$%parkour_course_joinfee_skywars%'
-          - '&eReward: &b$%parkour_course_ecoreward_skywars% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_skywars%'
           - '&eCompletions: &b%parkour_course_completions_skywars%&r | &eViews: &b%parkour_course_views_skywars% &r(&b%math_0:1_100/{parkour_course_views_skywars}*{parkour_course_completions_skywars}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_skywars%&r + &emin-lvl: &b%parkour_course_minparkourlevel_skywars%'
+          - '&eReward: &b$%parkour_course_ecoreward_skywars%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_skywars%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_skywars%'
           commands:
           - left= parkour join skywars
@@ -110,9 +122,11 @@ panels:
           name: '&r&b%parkour_course_displayname_hard%&r | Online: &b%parkour_course_players_hard%'
           lore:
           - '&eBest time: &f%parkour_course_record_hard_player%&8: &b%parkour_course_record_hard_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_hard%&r | &ejoin-fee: &b$%parkour_course_joinfee_hard%'
-          - '&eReward: &b$%parkour_course_ecoreward_hard% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_hard%'
           - '&eCompletions: &b%parkour_course_completions_hard%&r | &eViews: &b%parkour_course_views_hard% &r(&b%math_0:1_100/{parkour_course_views_hard}*{parkour_course_completions_hard}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_hard%&r + &emin-lvl: &b%parkour_course_minparkourlevel_hard%'
+          - '&eReward: &b$%parkour_course_ecoreward_hard%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_hard%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_hard%'
           commands:
           - left= parkour join hard
@@ -124,9 +138,11 @@ panels:
           name: '&r&b%parkour_course_displayname_rainbowfall%&r | Online: &b%parkour_course_players_rainbowfall%'
           lore:
           - '&eBest time: &f%parkour_course_record_rainbowfall_player%&8: &b%parkour_course_record_rainbowfall_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_rainbowfall%&r | &ejoin-fee: &b$%parkour_course_joinfee_rainbowfall%'
-          - '&eReward: &b$%parkour_course_ecoreward_rainbowfall% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowfall%'
           - '&eCompletions: &b%parkour_course_completions_rainbowfall%&r | &eViews: &b%parkour_course_views_rainbowfall% &r(&b%math_0:1_100/{parkour_course_views_rainbowfall}*{parkour_course_completions_rainbowfall}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowfall%&r + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowfall%'
+          - '&eReward: &b$%parkour_course_ecoreward_rainbowfall%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_rainbowfall%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_rainbowfall%'
           commands:
           - left= parkour join rainbowfall
@@ -138,9 +154,11 @@ panels:
           name: '&r&b%parkour_course_displayname_flyingvillage%&r | Online: &b%parkour_course_players_flyingvillage%'
           lore:
           - '&eBest time: &f%parkour_course_record_flyingvillage_player%&8: &b%parkour_course_record_flyingvillage_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_flyingvillage%&r | &ejoin-fee: &b$%parkour_course_joinfee_flyingvillage%'
-          - '&eReward: &b$%parkour_course_ecoreward_flyingvillage% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_flyingvillage%'
           - '&eCompletions: &b%parkour_course_completions_flyingvillage%&r | &eViews: &b%parkour_course_views_flyingvillage% &r(&b%math_0:1_100/{parkour_course_views_flyingvillage}*{parkour_course_completions_flyingvillage}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_flyingvillage%&r + &emin-lvl: &b%parkour_course_minparkourlevel_flyingvillage%'
+          - '&eReward: &b$%parkour_course_ecoreward_flyingvillage%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_flyingvillage%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_flyingvillage%'
           commands:
           - left= parkour join flyingvillage
@@ -152,9 +170,11 @@ panels:
           name: '&r&b%parkour_course_displayname_expert%&r | Online: &b%parkour_course_players_expert%'
           lore:
           - '&eBest time: &f%parkour_course_record_expert_player%&8: &b%parkour_course_record_expert_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_expert%&r | &ejoin-fee: &b$%parkour_course_joinfee_expert%'
-          - '&eReward: &b$%parkour_course_ecoreward_expert% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_expert%'
           - '&eCompletions: &b%parkour_course_completions_expert%&r | &eViews: &b%parkour_course_views_expert% &r(&b%math_0:1_100/{parkour_course_views_expert}*{parkour_course_completions_expert}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_expert%&r + &emin-lvl: &b%parkour_course_minparkourlevel_expert%'
+          - '&eReward: &b$%parkour_course_ecoreward_expert%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_expert%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_expert%'
           commands:
           - left= parkour join expert
@@ -166,9 +186,11 @@ panels:
           name: '&r&b%parkour_course_displayname_pridesnake%&r | Online: &b%parkour_course_players_pridesnake%'
           lore:
           - '&eBest time: &f%parkour_course_record_pridesnake_player%&8: &b%parkour_course_record_pridesnake_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_pridesnake%&r | &ejoin-fee: &b$%parkour_course_joinfee_pridesnake%'
-          - '&eReward: &b$%parkour_course_ecoreward_pridesnake% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_pridesnake%'
           - '&eCompletions: &b%parkour_course_completions_pridesnake%&r | &eViews: &b%parkour_course_views_pridesnake% &r(&b%math_0:1_100/{parkour_course_views_pridesnake}*{parkour_course_completions_pridesnake}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_pridesnake%&r + &emin-lvl: &b%parkour_course_minparkourlevel_pridesnake%'
+          - '&eReward: &b$%parkour_course_ecoreward_pridesnake%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_pridesnake%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_pridesnake%'
           commands:
           - left= parkour join pridesnake
@@ -180,9 +202,11 @@ panels:
           name: '&r&b%parkour_course_displayname_transsnake%&r | Online: &b%parkour_course_players_transsnake%'
           lore:
           - '&eBest time: &f%parkour_course_record_transsnake_player%&8: &b%parkour_course_record_transsnake_time%'
-          - '&eRestrictions: min-lvl: &b%parkour_course_minparkourlevel_transsnake%&r | &ejoin-fee: &b$%parkour_course_joinfee_transsnake%'
-          - '&eReward: &b$%parkour_course_ecoreward_transsnake% &r+ &elvl up: &b%parkour_course_rewardparkourleveladd_transsnake%'
           - '&eCompletions: &b%parkour_course_completions_transsnake%&r | &eViews: &b%parkour_course_views_transsnake% &r(&b%math_0:1_100/{parkour_course_views_transsnake}*{parkour_course_completions_transsnake}%%&r)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_transsnake%&r + &emin-lvl: &b%parkour_course_minparkourlevel_transsnake%'
+          - '&eReward: &b$%parkour_course_ecoreward_transsnake%&r + &elvl up: &b%parkour_course_rewardparkourleveladd_transsnake%'
+          - ''
           - '&eCreated by: &f%parkour_course_creator_transsnake%'
           commands:
           - left= parkour join transsnake
