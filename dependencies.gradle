@@ -34,6 +34,7 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-Essentials:1.5.2'
     implementation 'PAPI-Expansion:Expansion-Javascript:2.1.2'
     implementation 'PAPI-Expansion:Expansion-LuckPerms:5.4'
+    implementation 'PAPI-Expansion:Expansion-Math:2.0.2'
     implementation 'PAPI-Expansion:Expansion-Pinger:1.0.1'
     implementation 'PAPI-Expansion:Expansion-Player:2.0.8'
     implementation 'PAPI-Expansion:Expansion-Server:2.6.2'
