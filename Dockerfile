@@ -1,10 +1,4 @@
-FROM openjdk:21-slim
-LABEL author="Simon Fugl"
+FROM itzg/minecraft-server:java21
 
-# Copy server files to a tfb folder
-COPY . /tfb/
-
-WORKDIR /tfb
-
-RUN chmod +x *.jar
-CMD  ["java", "-Xms128M", "-Xmx6144M", "-jar", "server.jar", "nogui"]
+# Copy server files to a data folder
+COPY --chown=1000:1000 . /data/

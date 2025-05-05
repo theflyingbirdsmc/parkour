@@ -40,6 +40,7 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-Server:2.6.2'
     implementation 'PAPI-Expansion:Expansion-Vault:1.8.3'
     implementation 'PAPI-Expansion:Expansion-VotingPlugin:1.5'
+    implementation 'PAPI-Expansion:Expansion-Math:2.0.2'
     
     // K8s Plugins
     // implementation 'Plugin:UnifiedMetrics:0.3.8'
