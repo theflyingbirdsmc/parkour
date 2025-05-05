@@ -1,6 +1,6 @@
 var lang = "";
 var type = "";
-function tfbCreativeEU() {
+function tfb_cs_tmm() {
     if (args.length == 2) {
         type = args[0];
         lang = args[1];
@@ -9,19 +9,19 @@ function tfbCreativeEU() {
     if (type == "name") {
         switch (lang) {
             case "danish":
-                return "&fKreativ";
+                return "#FFFFFFT#FFAFC7h#73D7EEe#3A6C77 #000000M#281A08e#50350Fo#784F17w#BC280C #FF0000M#FF7F00o#FFFF00v#00FF00e#0000FFm#2600C1e#4B0082n#9400D3t";
                 break;
             default:
-                return "&fCreative";
+                return "#FFFFFFT#FFAFC7h#73D7EEe#3A6C77 #000000M#281A08e#50350Fo#784F17w#BC280C #FF0000M#FF7F00o#FFFF00v#00FF00e#0000FFm#2600C1e#4B0082n#9400D3t";
         }
 
     } else if (type == "lore") {
         switch (lang) {
             case "danish":
-                return "&eSprog&8: &7Dansk/Engelsk\\n&eKlik for at joine nu!";
+                return "&eSprog&8: &7Engelsk\\n&eKlik for at joine nu!";
                 break;
             default:
-                return "&eLanguage&8: &7Danish/English\\n&eClick to connect now!";
+                return "&eLanguage&8: &7English\\n&eClick to connect now!";
         }
     } else if (type == "message") {
         switch (lang) {
@@ -34,4 +34,4 @@ function tfbCreativeEU() {
     } else { return "error"; }
 }
 
-tfbCreativeEU();
+tfb_cs_tmm();

@@ -23,7 +23,6 @@ dependencies {
     implementation 'Plugin:VotingPlugin-Bungee:6.16.+'
     implementation 'Plugin:WorldGuard:7.0.+'
     // implementation 'Vulcan:Vulcan:2.7.5'
-
     
     // Local plugins
     // implementation 'VoidGen:VoidGen:2.2.1'
@@ -35,6 +34,7 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-Essentials:1.5.2'
     implementation 'PAPI-Expansion:Expansion-Javascript:2.1.2'
     implementation 'PAPI-Expansion:Expansion-LuckPerms:5.4'
+    implementation 'PAPI-Expansion:Expansion-Math:2.0.2'
     implementation 'PAPI-Expansion:Expansion-Pinger:1.0.1'
     implementation 'PAPI-Expansion:Expansion-Player:2.0.8'
     implementation 'PAPI-Expansion:Expansion-Server:2.6.2'
@@ -42,6 +42,5 @@ dependencies {
     implementation 'PAPI-Expansion:Expansion-VotingPlugin:1.5'
     implementation 'PAPI-Expansion:Expansion-Math:2.0.2'
     
-    // K8s Plugins
     // implementation 'Plugin:UnifiedMetrics:0.3.8'
 }
