@@ -312,7 +312,7 @@ MySQL:
    Use: true
    URL: jdbc:mysql://parkour-db:3306/parkour_parkour?useSSL=false
    Username: parkour
-   Password: ifFfF4cUeEYVXCZ4a5494sjVS8oBZL
+   Password: MqGR6uD4SFPXTmK6uweVMCZ7pkTTfi
    LegacyDriver: false
 Version: 7.2.3
 LobbySettings: 
