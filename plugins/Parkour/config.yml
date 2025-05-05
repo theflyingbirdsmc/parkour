@@ -310,9 +310,9 @@ SQLite:
    PathOverride: ""
 MySQL: 
    Use: true
-   URL: jdbc:mysql://tfb-parkour-db:3306/tfb_parkour_parkour?useSSL=false
-   Username: tfb_parkour
-   Password: WaLFY@^9!yc8Kg*y^DPt6urL6MS$HV
+   URL: jdbc:mysql://parkour-db:3306/parkour_parkour?useSSL=false
+   Username: parkour
+   Password: ifFfF4cUeEYVXCZ4a5494sjVS8oBZL
    LegacyDriver: false
 Version: 7.2.3
 LobbySettings: 
