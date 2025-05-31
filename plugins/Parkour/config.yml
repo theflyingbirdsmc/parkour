@@ -310,7 +310,7 @@ SQLite:
    PathOverride: ""
 MySQL: 
    Use: true
-   URL: jdbc:mysql://parkour-db:3306/parkour?useSSL=false
+   URL: jdbc:mysql://parkour-db:3306/parkour_parkour?useSSL=false
    Username: parkour
    Password: MqGR6uD4SFPXTmK6uweVMCZ7pkTTfi
    LegacyDriver: false
