@@ -1,0 +1,64 @@
+panels:
+  parkour_cat_downloaded:
+    perm: default
+    rows: 1
+    title: '&8Category: Downloaded'
+    empty: air
+    item:
+        '0':
+          material: RED_WOOL
+          stack: 1
+          name: '&cGo Back'
+          commands:
+          - open= parkour_ranked
+        '2':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_treeoflife%&f | Online: &b%parkour_course_players_treeoflife%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_treeoflife_player%&8: &b%parkour_course_record_treeoflife_time%'
+          - '&eViews: &b%parkour_course_views_treeoflife%&f | &eCompletions: &b%parkour_course_completions_treeoflife% &f(&b%math_0:1_100/{parkour_course_views_treeoflife}*{parkour_course_completions_treeoflife}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_treeoflife%&f + &emin-lvl: &b%parkour_course_minparkourlevel_treeoflife%'
+          - '&eReward: &b$%parkour_course_ecoreward_treeoflife%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_treeoflife%'
+          - ''
+          - '&eDifficulty: &fHard'
+          - '&eCreated by: &f%parkour_course_creator_treeoflife%'
+          commands:
+          - left= parkour join treeoflife
+          - right= parkour stats treeoflife
+          - middle= parkour leaderboard treeoflife
+        '3':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_skywars%&f | Online: &b%parkour_course_players_skywars%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_skywars_player%&8: &b%parkour_course_record_skywars_time%'
+          - '&eViews: &b%parkour_course_views_skywars%&f | &eCompletions: &b%parkour_course_completions_skywars% &f(&b%math_0:1_100/{parkour_course_views_skywars}*{parkour_course_completions_skywars}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_skywars%&f + &emin-lvl: &b%parkour_course_minparkourlevel_skywars%'
+          - '&eReward: &b$%parkour_course_ecoreward_skywars%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_skywars%'
+          - ''
+          - '&eDifficulty: &fHard'
+          - '&eCreated by: &f%parkour_course_creator_skywars%'
+          commands:
+          - left= parkour join skywars
+          - right= parkour stats skywars
+          - middle= parkour leaderboard skywars
+        '4':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_flyingvillage%&f | Online: &b%parkour_course_players_flyingvillage%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_flyingvillage_player%&8: &b%parkour_course_record_flyingvillage_time%'
+          - '&eViews: &b%parkour_course_views_flyingvillage%&f | &eCompletions: &b%parkour_course_completions_flyingvillage% &f(&b%math_0:1_100/{parkour_course_views_flyingvillage}*{parkour_course_completions_flyingvillage}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_flyingvillage%&f + &emin-lvl: &b%parkour_course_minparkourlevel_flyingvillage%'
+          - '&eReward: &b$%parkour_course_ecoreward_flyingvillage%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_flyingvillage%'
+          - ''
+          - '&eDifficulty: &fNightmare'
+          - '&eCreated by: &f%parkour_course_creator_flyingvillage%'
+          commands:
+          - left= parkour join flyingvillage
+          - right= parkour stats flyingvillage
+          - middle= parkour leaderboard flyingvillage
