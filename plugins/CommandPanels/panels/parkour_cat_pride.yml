@@ -96,3 +96,20 @@ panels:
           - left= parkour join transsnake
           - right= parkour stats transsnake
           - middle= parkour leaderboard transsnake
+        '7':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_enbysnake%&f | Online: &b%parkour_course_players_enbysnake%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_enbysnake_player%&8: &b%parkour_course_record_enbysnake_time%'
+          - '&eViews: &b%parkour_course_views_enbysnake%&f | &eCompletions: &b%parkour_course_completions_enbysnake% &f(&b%math_0:1_100/{parkour_course_views_enbysnake}*{parkour_course_completions_enbysnake}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_enbysnake%&f + &emin-lvl: &b%parkour_course_minparkourlevel_enbysnake%'
+          - '&eReward: &b$%parkour_course_ecoreward_enbysnake%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_enbysnake%'
+          - ''
+          - '&eDifficulty: &fMedium'
+          - '&eCreated by: &f%parkour_course_creator_enbysnake%'
+          commands:
+          - left= parkour join enbysnake
+          - right= parkour stats enbysnake
+          - middle= parkour leaderboard enbysnake
