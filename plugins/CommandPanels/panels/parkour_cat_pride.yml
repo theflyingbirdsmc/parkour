@@ -56,7 +56,7 @@ panels:
           - '&eJoin-fee: &b$%parkour_course_joinfee_rainbowfall%&f + &emin-lvl: &b%parkour_course_minparkourlevel_rainbowfall%'
           - '&eReward: &b$%parkour_course_ecoreward_rainbowfall%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_rainbowfall%'
           - ''
-          - '&eDifficulty: &fHard-Expert'
+          - '&eDifficulty: &fHard'
           - '&eCreated by: &f%parkour_course_creator_rainbowfall%'
           commands:
           - left= parkour join rainbowfall
@@ -90,7 +90,7 @@ panels:
           - '&eJoin-fee: &b$%parkour_course_joinfee_transsnake%&f + &emin-lvl: &b%parkour_course_minparkourlevel_transsnake%'
           - '&eReward: &b$%parkour_course_ecoreward_transsnake%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_transsnake%'
           - ''
-          - '&eDifficulty: &fHard-Expert'
+          - '&eDifficulty: &fExpert'
           - '&eCreated by: &f%parkour_course_creator_transsnake%'
           commands:
           - left= parkour join transsnake

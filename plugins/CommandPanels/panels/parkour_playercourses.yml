@@ -31,6 +31,7 @@ panels:
           - ''
           - '&eReward: &b$%parkour_course_ecoreward_netherdream%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_netherdream%'
           - ''
+          - '&eDifficulty: &fMedium'
           - '&eCreated by: &f%parkour_course_creator_netherdream%'
           commands:
           - left= parkour join netherdream
@@ -46,6 +47,7 @@ panels:
           - ''
           - '&eReward: &b$%parkour_course_ecoreward_shipwool%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_shipwool%'
           - ''
+          - '&eDifficulty: &fEasy'
           - '&eCreated by: &f%parkour_course_creator_shipwool%'
           commands:
           - left= parkour join shipwool
@@ -61,6 +63,7 @@ panels:
           - ''
           - '&eReward: &b$%parkour_course_ecoreward_aquarium%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_aquarium%'
           - ''
+          - '&eDifficulty: &fHard'
           - '&eCreated by: &f%parkour_course_creator_aquarium%'
           commands:
           - left= parkour join aquarium
@@ -76,6 +79,7 @@ panels:
           - ''
           - '&eReward: &b$%parkour_course_ecoreward_bisnake%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_bisnake%'
           - ''
+          - '&eDifficulty: &fHard'
           - '&eCreated by: &f%parkour_course_creator_bisnake%'
           commands:
           - left= parkour join bisnake
