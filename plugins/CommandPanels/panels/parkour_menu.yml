@@ -2,10 +2,19 @@ panels:
   parkour_menu:
     perm: default
     rows: 3
-    title: '&8Parkour Menu'
+    title: '#ee2b23T#3551d7F#00ff00B &0Parkour'
     empty: air
+    open-with-item:
+      material: ENCHANTED_BOOK
+      stationary: 0
+      name: '#ee2b23T#3551d7F#00ff00B &fParkour'
+      lore:
+      - '&7Jump or dive like an Eagle, in our' 
+      - '&7amazing parkour, dropper & elytra courses' 
+      commands:
+      - open= parkour_menu
     item:
-      '3':
+      '11':
         material: SLIME_BLOCK
         stack: 1
         name: '&fCasual Parkour'
@@ -14,17 +23,6 @@ panels:
         lore:
         - '&7Play however you want'
         - '&7Be free like a bird'
-      '5':
-        material: SLIME_BLOCK
-        stack: 1
-        name: '&fRanked Parkour'
-        enchanted: 
-        - true
-        commands:
-        - open= parkour_ranked
-        lore:
-        - '&7Earn levels by completing courses'
-        - '&7Courses gets increasingly harder'
       '13':
         material: EGG
         stack: 1
@@ -35,12 +33,70 @@ panels:
         - ''
         - '&eReward: &b$%parkour_course_ecoreward_parkourtutorial%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_parkourtutorial%'
         - ''
+        - '&eDifficulty: &fBeginner'
         - '&eCreated by: &f%parkour_course_creator_parkourtutorial%'
         commands:
         - left= parkour join parkourtutorial
         - right= parkour stats parkourtutorial
         - middle= parkour leaderboard parkourtutorial
-      '21':
+      '15':
+        material: SLIME_BLOCK
+        stack: 1
+        name: '&fRanked Parkour'
+        enchanted: 
+        - true
+        commands:
+        - open= parkour_ranked
+        lore:
+        - '&7Earn levels by completing courses'
+        - '&7Harder courses give higher rewards'
+        
+      # '15':
+      #   material: ELYTRA
+      #   stack: 1
+      #   name: '&fElytra Menu'
+      #   commands:
+      #   - open= elytra_menu
+      #   lore:
+      #   - '&7Play however you want'
+      #   - '&7Be free like a bird'
+      # '13':
+      #   material: DROPPER
+      #   stack: 1
+      #   name: '&fDropper Menu'
+      #   commands:
+      #   - open= dropper_menu
+      #   lore:
+      #   - '&7Play however you want'
+      #   - '&7Be free like a bird'
+      '0':
+        material: cps= self
+        stack: 1
+        name: '&fPlayer Stats'
+        lore:
+        - '&eGame Level: &b%parkour_player_level%'
+        - '&eBalance: &b%vault_eco_balance_commas%'
+        - ''
+        - '&eCompleted: &b%parkour_player_courses_completed%&f (&b%parkour_player_courses_uncompleted% left&f)'
+        - '&eCourse playing Time: &b%parkour_player_total_playing_time%'
+        - ''
+        - '&eLast Joined: &b%parkour_player_last_joined%'
+        - '&eLast Finished: &b%parkour_player_last_completed%'
+      '26':
+        material: WHITE_DYE
+        stack: 1
+        name: '&fToggle quiet mode'
+        commands:
+        - parkour quiet
+        lore:
+        - '&7Disables on-screen text'
+      '18':
+          material: RED_WOOL
+          stack: 1
+          name: '&cClose Menu'
+          commands:
+          - cpc
+      '8':
         material: PLAYER_HEAD
         stack: 1
         name: '&fParkour Player Courses'
@@ -49,19 +105,3 @@ panels:
         lore:
         - '&7Courses made by other players'
         - '&7Create your own and let others play it!'
-      '23':
-        material: DIAMOND_SWORD
-        stack: 1
-        name: '&fParkour Challenges'
-        commands:
-        - open= parkour_challenges
-        lore:
-        - '&7Compete against your friends'
-        - '&7Special challenge only courses'
-        - '&7Set a wager, winner gets prize'
-      '18':
-          material: RED_WOOL
-          stack: 1
-          name: '&cGo Back'
-          commands:
-          - open= main_menu

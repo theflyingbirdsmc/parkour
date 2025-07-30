@@ -1,0 +1,77 @@
+panels:
+  parkour_cat_standard:
+    perm: default
+    rows: 1
+    title: '&8Category: Standard'
+    empty: air
+    item:
+        '0':
+          material: RED_WOOL
+          stack: 1
+          name: '&cGo Back'
+          commands:
+          - open= parkour_ranked
+        '3':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_easy%&f | Online: &b%parkour_course_players_easy%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_easy_player%&8: &b%parkour_course_record_easy_time%'
+          - '&eViews: &b%parkour_course_views_easy%&f | &eCompletions: &b%parkour_course_completions_easy% &f(&b%math_0:1_100/{parkour_course_views_easy}*{parkour_course_completions_easy}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_easy%&f + &emin-lvl: &b%parkour_course_minparkourlevel_easy%'
+          - '&eReward: &b$%parkour_course_ecoreward_easy%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_easy%'
+          - ''
+          - '&eCreated by: &f%parkour_course_creator_easy%'
+          commands:
+          - left= parkour join easy
+          - right= parkour stats easy
+          - middle= parkour leaderboard easy
+        '4':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_medium%&f | Online: &b%parkour_course_players_medium%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_medium_player%&8: &b%parkour_course_record_medium_time%'
+          - '&eViews: &b%parkour_course_views_medium%&f | &eCompletions: &b%parkour_course_completions_medium% &f(&b%math_0:1_100/{parkour_course_views_medium}*{parkour_course_completions_medium}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_medium%&f + &emin-lvl: &b%parkour_course_minparkourlevel_medium%'
+          - '&eReward: &b$%parkour_course_ecoreward_medium%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_medium%'
+          - ''
+          - '&eCreated by: &f%parkour_course_creator_medium%'
+          commands:
+          - left= parkour join medium
+          - right= parkour stats medium
+          - middle= parkour leaderboard medium
+        '5':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_hard%&f | Online: &b%parkour_course_players_hard%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_hard_player%&8: &b%parkour_course_record_hard_time%'
+          - '&eViews: &b%parkour_course_views_hard%&f | &eCompletions: &b%parkour_course_completions_hard% &f(&b%math_0:1_100/{parkour_course_views_hard}*{parkour_course_completions_hard}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_hard%&f + &emin-lvl: &b%parkour_course_minparkourlevel_hard%'
+          - '&eReward: &b$%parkour_course_ecoreward_hard%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_hard%'
+          - ''
+          - '&eCreated by: &f%parkour_course_creator_hard%'
+          commands:
+          - left= parkour join hard
+          - right= parkour stats hard
+          - middle= parkour leaderboard hard
+        '6':
+          material: BOOK
+          stack: 1
+          name: '&f&b%parkour_course_displayname_expert%&f | Online: &b%parkour_course_players_expert%'
+          lore:
+          - '&eBest time: &f%parkour_course_record_expert_player%&8: &b%parkour_course_record_expert_time%'
+          - '&eViews: &b%parkour_course_views_expert%&f | &eCompletions: &b%parkour_course_completions_expert% &f(&b%math_0:1_100/{parkour_course_views_expert}*{parkour_course_completions_expert}%%&f)'
+          - ''
+          - '&eJoin-fee: &b$%parkour_course_joinfee_expert%&f + &emin-lvl: &b%parkour_course_minparkourlevel_expert%'
+          - '&eReward: &b$%parkour_course_ecoreward_expert%&f + &elvl-up: &b%parkour_course_rewardparkourleveladd_expert%'
+          - ''
+          - '&eCreated by: &f%parkour_course_creator_expert%'
+          commands:
+          - left= parkour join expert
+          - right= parkour stats expert
+          - middle= parkour leaderboard expert
