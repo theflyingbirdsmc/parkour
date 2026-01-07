@@ -25,4 +25,3 @@ aliases:
   - channel send TFB-Chat $$1-
   s:
   - channel send TFB-Staff $$1-
-
